@@ -1,7 +1,7 @@
 class Bot:
     main_dict = {"courses":(["courses","course","offered","sem","semester","list","offer","which"],"Loading the course directory..."),"greeting":(["hi","hello","how","are","you","good","morning","afternoon","evening"],"Hi how are you today"),
             "thank":(["thanks","thank","you","helpful","ok","okay"],"Happy to help!"),"bye":(["goodbye","bye",],"See you soon!"),"options":(["what","can","you","do","how","help","me","use","do","provide","support",],"I can guide you through courses offered in college, Professors offering those courses, past record for the courses, prereqs required for this course"),
-            "profs":(["what","prof","professor","which","teach","teaches","name","courses","profs","teaching"],"Loading the professor directory..."),"prereq":(["prereqs","prereq","prerequisites","prerequisite","pre","requisite","requisites","course"],"Loading pre requisite data..."),
+            "profs":(["what","prof","professor","which","teach","teaches","name","courses","profs","teaching"],"Loading the professor directory..."),"prereq":(["prereqs","prereq","prerequisites","prerequisite","pre","requisite","requisites","course","required","require"],"Loading pre requisite data..."),
             "past_year":(["previous","year","past","years","record","records","average","score"],"Loading previous year's data...")}
     
     ignore_words = ["a","an","the","what","is","are","this","there","in","of","to","for"]
